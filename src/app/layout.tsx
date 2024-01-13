@@ -10,15 +10,15 @@ const defaultUrl = process.env.VERCEL_URL
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Jackson Moody",
-  description: "Jackson Moody's Personal Website",
+  description: "Jackson Moody Personal Website",
   openGraph: {
     title: "Jackson Moody",
-    description: "Jackson Moody's Personal Website",
+    description: "Jackson Moody Personal Website",
     url: "https://www.jacksonmoody.com",
     siteName: "Jackson Moody",
     images: [
       {
-        url: "https://drive.usercontent.google.com/download?id=1jdHk8UScuVOodaLP5FNh0mhhc4my5062&export=view&authuser=0",
+        url: "https://i.ibb.co/9HHL1sj/logo.png",
         width: 1200,
         height: 630,
       },
