@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const defaultUrl = process.env.VERCEL_URL
@@ -18,7 +18,9 @@ export const metadata: Metadata = {
     siteName: "Jackson Moody",
     images: [
       {
-        url: "https://drive.usercontent.google.com/download?id=11SQzHKN2kfckajwbsH8ktPuj30sS6Wpu&export=view&authuser=0",
+        url: "https://drive.usercontent.google.com/download?id=1jdHk8UScuVOodaLP5FNh0mhhc4my5062&export=view&authuser=0",
+        width: 1200,
+        height: 630,
       },
     ],
     locale: "en_US",
@@ -33,9 +35,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"bg-slate-900"}>{children}</body>
-      <Analytics />
-      <SpeedInsights />
+      <body className="bg-slate-900">
+        {children}
+        <Analytics />
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
