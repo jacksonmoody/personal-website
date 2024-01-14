@@ -6,7 +6,7 @@ import { scrollTo } from "@/utils/helpers";
 
 export default function Navbar() {
   return (
-    <div className="flex flex-row justify-between items-center py-20 px-1 sm:px-24">
+    <div className="flex flex-row justify-center sm:justify-between py-20 px-1 lg:px-28">
       <div className="hidden sm:flex flex-row items-center gap-5">
         <a
           href="#experience"

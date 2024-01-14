@@ -9,17 +9,19 @@ export default function Experience() {
     >
       <FadeInSection>
         <div className="flex mt-10 lg:mt-0 items-center gap-5 w-[54rem]">
-          <h2 className="text-secondary text-3xl font-bold hidden lg:block">Experience</h2>
+          <h2 className="text-secondary text-3xl font-bold hidden lg:block">
+            Experience
+          </h2>
           <hr className="border-tertiary border-opacity-30 grow" />
         </div>
       </FadeInSection>
       <div className="my-5">
         {experience.map((job) => (
-          <FadeInSection id={job.id} key={job.id}>
+          <FadeInSection id={job.id} key={job.id} tabIndex={0}>
             <a
               href={job.link}
               target="_blank"
-              className="group rounded-md transition -inset-x-6 block hover:bg-slate-800/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg p-5 max-w-4xl"
+              className="group rounded-md transition -inset-x-6 block hocus:bg-slate-800/50 hocus:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg p-5 max-w-4xl"
             >
               <div className="flex justify-between">
                 <h3 className="text-tertiary group-hover:text-primary transition text-lg font-bold">
