@@ -106,7 +106,7 @@ export default function Project({ project }: ProjectProps) {
               <CarouselContent>
                 {project.images.map((image, i) => (
                   <CarouselItem key={i}>
-                    <div className="relative w-full h-[500px] mt-5">
+                    <div className="relative max-w-full h-[180px] sm:h-[500px] mt-5">
                       <Image
                         src={image}
                         alt={project.alts[i]}
@@ -126,7 +126,7 @@ export default function Project({ project }: ProjectProps) {
           )}
           {project.images && project.images.length === 1 && (
             <>
-              <div className="relative w-full h-[500px] mt-5">
+              <div className="relative w-full h-[180px] sm:h-[500px] mt-5">
                 <Image
                   src={project.images[0]}
                   alt={project.alts[0]}

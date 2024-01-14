@@ -12,7 +12,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="flex flex-col items-center mt-12" id="projects">
+      <div className="flex flex-col items-center mt-12 overflow-x-hidden" id="projects">
         <FadeInSection>
           <div className="flex mt-10 lg:mt-0 items-center gap-5 w-[62rem]">
             <h2 className="text-secondary text-3xl font-bold hidden lg:block">
