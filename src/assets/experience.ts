@@ -2,7 +2,7 @@ export const experience = [
   {
     id: 1,
     title: "Full Stack Software Engineering Intern",
-    company: "General Services Administration",
+    company: "U.S. Federal Government, General Services Administration",
     description: [
       "Created new template for long-form government web content—publishing 300+ pages of new material with vastly improved performance and accessibility.",
       "Led automation of data reconciliation project saving an estimated 350+ hours annually.",
