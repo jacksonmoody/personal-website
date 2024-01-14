@@ -12,9 +12,9 @@ export default function Projects() {
 
   return (
     <>
-      <div className="flex flex-col items-center mt-12 overflow-x-hidden" id="projects">
+      <div className="flex flex-col items-center mt-12 overflow-x-hidden lg:overflow-visible" id="projects">
         <FadeInSection>
-          <div className="flex mt-10 lg:mt-0 items-center gap-5 w-[62rem]">
+          <div className="flex mt-10 lg:mt-0 items-center gap-5 w-[50rem] lg:w-[62rem]">
             <h2 className="text-secondary text-3xl font-bold hidden lg:block">
               Projects
             </h2>
@@ -33,12 +33,12 @@ export default function Projects() {
       </div>
       <div className="text-center">
         {!open && (
-          <button className="button mt-10 mb-20" onClick={() => setOpen(true)}>
+          <button className="button mt-10 sm:mb-20" onClick={() => setOpen(true)}>
             Show More
           </button>
         )}
         {open && (
-          <button className="button mt-10 mb-20" onClick={() => setOpen(false)}>
+          <button className="button mt-10 sm:mb-20" onClick={() => setOpen(false)}>
             Show Less
           </button>
         )}
