@@ -6,6 +6,7 @@ import Welcome from "@/components/sections/welcome";
 import Experience from "@/components/sections/experience";
 import Projects from "@/components/sections/projects";
 import Contact from "@/components/sections/contact";
+import Footer from "@/components/sections/footer";
 
 export default function Home() {
   const [mousePosition, setMousePosition] = useState({
@@ -29,6 +30,7 @@ export default function Home() {
       <Experience />
       <Projects />
       <Contact />
+      <Footer />
       <div
         className="pointer-events-none z-1 transition duration-300 fixed h-full w-full left-0 top-0"
         style={{
