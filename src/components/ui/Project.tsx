@@ -38,7 +38,7 @@ export default function Project({ project }: ProjectProps) {
     <FadeInSection id={project.id} key={project.id}>
       <div
         tabIndex={0}
-        className="group rounded-md transition -inset-x-6 block hocus:bg-slate-800/50 hocus:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg p-5 md:max-w-xs border-slate-800/50 border-2 h-full"
+        className="group rounded-md transition -inset-x-6 block hocus:bg-slate-800/50 hocus:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg p-5 md:max-w-xs border-slate-800/50 border-2 h-full cursor-pointer"
         onClick={() => setOpen(true)}
       >
         <div className="flex justify-between">
