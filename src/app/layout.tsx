@@ -10,10 +10,10 @@ const defaultUrl = process.env.VERCEL_URL
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Jackson Moody",
-  description: "Jackson Moody Personal Website",
+  description: "Jackson Moody is a student at Harvard College studying Computer Science and Mind, Brain, and Behavior. He is currently looking for new internship opportunities!",
   openGraph: {
     title: "Jackson Moody",
-    description: "Jackson Moody Personal Website",
+    description: "Jackson Moody is a student at Harvard College studying Computer Science on the Mind, Brain, Behavior track.",
     url: "https://www.jacksonmoody.com",
     siteName: "Jackson Moody",
     images: [
