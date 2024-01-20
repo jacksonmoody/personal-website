@@ -38,7 +38,7 @@ export const projects = [
       "Users can view and join available rides",
       "Users can manage rides that they have already created.",
     ],
-    link: "https://crimsoncarshare.live",
+    link: "https://crimson-carshare.live",
     github: "https://github.com/jacksonmoody/crimson-carshare",
     priority: true,
   },
