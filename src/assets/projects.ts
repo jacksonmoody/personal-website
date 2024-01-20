@@ -113,6 +113,27 @@ export const projects = [
   },
   {
     id: 6,
+    title: "Datamatch",
+    company: "Harvard Computer Society",
+    description: "Led a team in developing functionality for a survey-based matchmaking platform with 50k+ users and 235k+ matches.",
+    skills: ["React", "Firebase", "Cloud Functions"],
+    images: [
+      "/images/datamatch/1.jpg",
+      "/images/datamatch/2.jpg",
+      "/images/datamatch/3.jpg",
+      "/images/datamatch/4.jpg",
+    ],
+    alts: [
+      "Updated landing page to include user count and testimonials",
+      "Updated home page with new design and statistics",
+      "Updated profile page to include deal breakers",
+      "Crush roulette feature to allow users to influence the algorithm",
+    ],
+    link: "https://datamatch.me",
+    priority: true,
+  },
+  {
+    id: 7,
     title: "Club Review System",
     company: "Personal Project",
     description:
@@ -130,10 +151,10 @@ export const projects = [
       "Students can manage organizations which they have joined",
       "Students can view feedback from other students about different organizations",
     ],
-    priority: true,
+    priority: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Random Interesting Thing Generator",
     company: "Personal Project",
     description:
@@ -148,7 +169,7 @@ export const projects = [
     priority: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Blocking Group Matching System",
     company: "Personal Project",
     description:
@@ -164,8 +185,8 @@ export const projects = [
     priority: false,
   },
   {
-    id: 9,
-    title: "Time Management Application",
+    id: 10,
+    title: "Time Management App",
     company: "Personal Project",
     description:
       "Developed a platform to help users schedule their time and avoid procrastination.",
@@ -178,7 +199,7 @@ export const projects = [
     priority: false,
   },
   {
-    id: 10,
+    id: 11,
     title: "Smart Alarm Clock",
     company: "Personal Project",
     description:
@@ -194,11 +215,11 @@ export const projects = [
     priority: false,
   },
   {
-    id: 11,
+    id: 12,
     title: "Mask Detection Robot",
     company: "Misty Robotics",
     description:
-      "Developed a neural network to detect whether people are wearing masks.",
+      "Developed and deployed a neural network to detect whether people are wearing masks.",
     skills: ["Python", "Tensorflow", "C++"],
     video: "/videos/maskdetection/1.mp4",
     sound: true,
@@ -208,7 +229,33 @@ export const projects = [
     priority: false,
   },
   {
-    id: 12,
+    id: 13,
+    title: "Drawing Robot",
+    company: "Personal Project",
+    description: "Developed a robot and web application to draw images on the sidewalk using water",
+    skills: ["C++", "Node.js", "Express.js"],
+    video: "/videos/drawingrobot/1.mp4",
+    alts: [
+      "Users can upload images to a web application, and the robot will draw the image on the sidewalk using water",
+    ],
+    github: "https://github.com/jacksonmoody/ps70-machine",
+    link: "https://ps70-machine.vercel.app/",
+    priority: false,
+  },
+  {
+    id: 14,
+    title: "Soft Robotics Research",
+    company: "University of Colorado, Boulder",
+    description: "Created an algorithm to generate interlocking “finger joints” in dual-material 3D printed soft actuators.",
+    skills: ["Python", "3D Printing", "Solidworks"],
+    video: "/videos/softrobot/1.mp4",
+    alts: [
+      "A design for a 3D printed soft actuator with interlocking finger joints",
+    ],
+    priority: false,
+  },
+  {
+    id: 15,
     title: "Teleoperation Application",
     company: "Misty Robotics",
     description:

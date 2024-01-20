@@ -28,7 +28,7 @@ export const experience = [
     company: "Intelligent Robotics Laboratory, University of Colorado",
     description: [
       "Trained lightweight neural networks to be used in prosthetic hand research across the University.",
-      "Pioneered the usage of “finger joints” in dual-material 3D printed soft actuators to increase the adhesion between rigid and flexible material types.",
+      "Designed an algorithm to generate interlocking “finger joints” in dual-material soft actuators, greatly increasing the adhesion between rigid and flexible material types.",
     ],
     skills: ["Tensorflow", "Python"],
     link: "https://www.colorado.edu/lab/correll/",
