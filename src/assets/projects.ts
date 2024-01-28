@@ -4,7 +4,7 @@ export const projects = [
     title: "Waste Management System",
     company: "Matanataki",
     description:
-      "Led development of platform to help manage waste pickups and dropoffs for dozens of vendors across the island of Fiji.",
+      "Led development of platform to help manage waste pickups and drop-offs for dozens of vendors across the island of Fiji.",
     skills: ["React", "Next.js", "Supabase", "Typescript", "Tailwind CSS"],
     images: [
       "/images/matanataki/1.jpg",
@@ -13,7 +13,7 @@ export const projects = [
     ],
     alts: [
       "Options for picking up and dropping off waste across Fiji",
-      "Company dashboard to manage scheduled pickups and dropoffs",
+      "Company dashboard to manage scheduled pickups and drop-offs",
       "Users specify details about their waste before scheduling a pickup/dropoff",
     ],
     link: "https://matanataki.vercel.app",

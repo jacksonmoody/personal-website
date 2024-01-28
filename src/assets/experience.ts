@@ -17,9 +17,9 @@ export const experience = [
     company: "Formlabs",
     description: [
       "Led growth of the Formlabs Access Initiative for underserved students, now implemented successfully nationwide.",
-      "Resolved 100+ support tickets regarding complex issues in SLA 3D printing technology.",
+      "Developed program to resolve 100+ support tickets involving complex issues in SLA 3D printing technology.",
     ],
-    skills: ["Leadership", "Communication", "Technical Support"],
+    skills: ["Leadership", "Communication", "Teamwork"],
     link: "https://formlabs.com",
   },
   {
@@ -40,6 +40,7 @@ export const experience = [
     description: [
       "Aided in development of COVID-19 screening application shipped to dozens of healthcare centers.",
       "Prototyped computer vision demonstration leading to substantial joint venture deal.",
+      "Developed chat application using Google Dialogflow which formed the basis of 50+ customer applications."
     ],
     skills: ["C++", "Tensorflow", "Python", "Javascript"],
     link: "https://www.mistyrobotics.com/",
