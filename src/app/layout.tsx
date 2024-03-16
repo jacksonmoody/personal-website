@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
-
+ 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
   : "http://localhost:3000";
@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+
+export const viewport: Viewport = {
+  viewportFit: 'cover',
+}
 
 export default function RootLayout({
   children,
