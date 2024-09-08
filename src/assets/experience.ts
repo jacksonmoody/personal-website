@@ -1,7 +1,17 @@
 export const experience = [
   {
-    id: 1,
-    title: "Full Stack Software Engineering Intern",
+    title: "Software Engineering Intern",
+    company: "WHOOP",
+    description: [
+      "Launched 4 new frontend experiments on join.whoop.com leading to a net 14% increase in conversion rate.",
+      "Developed A/B testing dashboard saving an estimated 500 developer hours annually.",
+      "Updated backend of Order Service API to support free shipping and paying with a pre-saved credit card.",
+    ],
+    skills: ["Java", "PostgreSQL", "Next.js", "Typescript", "Amazon AWS"],
+    link: "https://whoop.jacksonmoody.com",
+  },
+  {
+    title: "Software Engineering Intern",
     company: "U.S. Federal Government, General Services Administration",
     description: [
       "Created new template for long-form government web content—publishing 300+ pages of new material with vastly improved performance and accessibility.",
@@ -12,8 +22,7 @@ export const experience = [
     link: "https://digital.gov/guides/hcd/",
   },
   {
-    id: 2,
-    title: "Product Management Intern",
+    title: "Product Intern",
     company: "Formlabs",
     description: [
       "Led growth of the Formlabs Access Initiative for underserved students, now implemented successfully nationwide.",
@@ -23,7 +32,6 @@ export const experience = [
     link: "https://formlabs.com",
   },
   {
-    id: 3,
     title: "Machine Learning Research Intern",
     company: "Intelligent Robotics Laboratory, University of Colorado",
     description: [
@@ -34,8 +42,7 @@ export const experience = [
     link: "https://www.colorado.edu/lab/correll/",
   },
   {
-    id: 4,
-    title: "Full Stack Software Engineering Intern",
+    title: "Software Engineering Intern",
     company: "Misty Robotics",
     description: [
       "Aided in development of COVID-19 screening application shipped to dozens of healthcare centers.",

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Headshot from "@/assets/Headshot.jpeg";
+import Headshot from "@/assets/headshot.jpeg";
 import Scroll from "@/assets/scroll.gif";
 import { scrollTo } from "@/utils/helpers";
 
@@ -26,7 +26,7 @@ export default function Welcome() {
             Software Engineer @ Harvard
           </h2>
           <div className="text-tertiary text-center lg:text-left mt-5 mb-10 max-w-xl">
-            <p className="inline">Hi! I am a sophomore at </p>
+            <p className="inline">Hi! I am a junior at </p>
             <a
               href="https://www.college.harvard.edu/"
               target="_blank"
@@ -40,7 +40,7 @@ export default function Welcome() {
             </a>
             <p className="inline">
               {" "}
-              I am currently looking for new internship opportunities, so please
+              I am actively looking for new internship opportunities, so please
               feel free to reach out!
             </p>
           </div>

@@ -15,8 +15,8 @@ import Autoplay from "embla-carousel-autoplay";
 import IconGitHubSmall from "@/components/icons/icon-github-small";
 
 type ProjectProps = {
+  id: number;
   project: {
-    id: number;
     title: string;
     company: string;
     description: string;
@@ -31,11 +31,11 @@ type ProjectProps = {
   };
 };
 
-export default function Project({ project }: ProjectProps) {
+export default function Project({ project, id }: ProjectProps) {
   const [open, setOpen] = useState(false);
 
   return (
-    <FadeInSection id={project.id} key={project.id}>
+    <FadeInSection id={id} key={id}>
       <div
         tabIndex={0}
         className="group rounded-md transition -inset-x-6 block hocus:bg-slate-800/50 hocus:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg p-5 md:max-w-xs border-slate-800/50 border-2 h-full cursor-pointer"

@@ -1,49 +1,26 @@
 export const projects = [
   {
-    id: 1,
-    title: "Waste Management System",
-    company: "Matanataki",
+    title: "Datamatch",
+    company: "Harvard Computer Society",
     description:
-      "Led development of platform to help manage waste pickups and drop-offs for dozens of vendors across the island of Fiji.",
-    skills: ["React", "Next.js", "Supabase", "Typescript", "Tailwind CSS"],
+      "Led a team in developing functionality for a survey-based matchmaking platform with 50k+ users and 235k+ matches.",
+    skills: ["React", "Firebase", "Cloud Functions"],
     images: [
-      "/images/matanataki/1.jpg",
-      "/images/matanataki/2.jpg",
-      "/images/matanataki/3.jpg",
+      "/images/datamatch/1.jpg",
+      "/images/datamatch/2.jpg",
+      "/images/datamatch/3.jpg",
+      "/images/datamatch/4.jpg",
     ],
     alts: [
-      "Options for picking up and dropping off waste across Fiji",
-      "Company dashboard to manage scheduled pickups and drop-offs",
-      "Users specify details about their waste before scheduling a pickup/dropoff",
+      "Updated landing page to include user count and testimonials",
+      "Updated home page with new design and statistics",
+      "Updated profile page to include deal breakers",
+      "Crush roulette feature to allow users to influence the algorithm",
     ],
-    link: "https://matanataki.vercel.app",
+    link: "https://datamatch.me",
     priority: true,
   },
   {
-    id: 2,
-    title: "Crimson CarShare",
-    company: "Personal Project",
-    description:
-      "Developed an application to allow Harvard students to find rides to share with each other.",
-    skills: ["React", "Next.js", "Firebase", "Typescript", "Tailwind CSS"],
-    images: [
-      "/images/crimsoncarshare/1.jpg",
-      "/images/crimsoncarshare/2.jpg",
-      "/images/crimsoncarshare/3.jpg",
-      "/images/crimsoncarshare/4.jpg",
-    ],
-    alts: [
-      "Users create a profile when onboarded onto the application",
-      "Users can create rides to share with each other.",
-      "Users can view and join available rides",
-      "Users can manage rides that they have already created.",
-    ],
-    link: "https://crimson-carshare.live",
-    github: "https://github.com/jacksonmoody/crimson-carshare",
-    priority: true,
-  },
-  {
-    id: 3,
     title: "Matching Platform",
     company: "CovEducation",
     description:
@@ -72,7 +49,68 @@ export const projects = [
     priority: true,
   },
   {
-    id: 4,
+    title: "Crimson CarShare",
+    company: "Personal Project",
+    description:
+      "Developed an application to allow Harvard students to find rides to share with each other.",
+    skills: ["React", "Next.js", "Firebase", "Typescript", "Tailwind CSS"],
+    images: [
+      "/images/crimsoncarshare/1.jpg",
+      "/images/crimsoncarshare/2.jpg",
+      "/images/crimsoncarshare/3.jpg",
+      "/images/crimsoncarshare/4.jpg",
+    ],
+    alts: [
+      "Users create a profile when onboarded onto the application",
+      "Users can create rides to share with each other.",
+      "Users can view and join available rides",
+      "Users can manage rides that they have already created.",
+    ],
+    link: "https://crimson-carshare.live",
+    github: "https://github.com/jacksonmoody/crimson-carshare",
+    priority: true,
+  },
+  {
+    title: "Waste Management System",
+    company: "Matanataki",
+    description:
+      "Led development of platform to help manage waste pickups and drop-offs for dozens of vendors across the island of Fiji.",
+    skills: ["React", "Next.js", "Supabase", "Typescript", "Tailwind CSS"],
+    images: [
+      "/images/matanataki/1.jpg",
+      "/images/matanataki/2.jpg",
+      "/images/matanataki/3.jpg",
+    ],
+    alts: [
+      "Options for picking up and dropping off waste across Fiji",
+      "Company dashboard to manage scheduled pickups and drop-offs",
+      "Users specify details about their waste before scheduling a pickup/dropoff",
+    ],
+    link: "https://matanataki.vercel.app",
+    priority: true,
+  },
+  {
+    title: "Join Flow",
+    company: "WHOOP",
+    description:
+      "Developed numerous experiments to increase conversion rates on the WHOOP website.",
+    skills: ["React", "Next.js", "Java", "PostgreSQL"],
+    images: [
+      "/images/whoop/1.webp",
+      "/images/whoop/2.webp",
+      "/images/whoop/3.webp",
+      "/images/whoop/4.webp",
+    ],
+    alts: [
+      "Redesigned join flow with new color scheme and more modern look",
+      "Added ability to pay with a pre-saved credit card",
+      "Updated password reset experience",
+      "Updated country/region and language selection",
+    ],
+    link: "https://whoop.jacksonmoody.com",
+    priority: true,
+  },
+  {
     title: "Digital.gov Guides",
     company: "General Services Administration",
     description:
@@ -93,7 +131,6 @@ export const projects = [
     priority: true,
   },
   {
-    id: 5,
     title: "Data Analytics Dashboard",
     company: "City of Boston",
     description:
@@ -109,31 +146,9 @@ export const projects = [
       "Users can view and filter detailed information about total spending",
       "Users can see detailed information about particular spenders and transactions",
     ],
-    priority: true,
+    priority: false,
   },
   {
-    id: 6,
-    title: "Datamatch",
-    company: "Harvard Computer Society",
-    description: "Led a team in developing functionality for a survey-based matchmaking platform with 50k+ users and 235k+ matches.",
-    skills: ["React", "Firebase", "Cloud Functions"],
-    images: [
-      "/images/datamatch/1.jpg",
-      "/images/datamatch/2.jpg",
-      "/images/datamatch/3.jpg",
-      "/images/datamatch/4.jpg",
-    ],
-    alts: [
-      "Updated landing page to include user count and testimonials",
-      "Updated home page with new design and statistics",
-      "Updated profile page to include deal breakers",
-      "Crush roulette feature to allow users to influence the algorithm",
-    ],
-    link: "https://datamatch.me",
-    priority: true,
-  },
-  {
-    id: 7,
     title: "Club Review System",
     company: "Personal Project",
     description:
@@ -154,7 +169,6 @@ export const projects = [
     priority: false,
   },
   {
-    id: 8,
     title: "Random Interesting Thing Generator",
     company: "Personal Project",
     description:
@@ -169,7 +183,6 @@ export const projects = [
     priority: false,
   },
   {
-    id: 9,
     title: "Blocking Group Matching System",
     company: "Personal Project",
     description:
@@ -185,7 +198,6 @@ export const projects = [
     priority: false,
   },
   {
-    id: 10,
     title: "Time Management App",
     company: "Personal Project",
     description:
@@ -199,7 +211,6 @@ export const projects = [
     priority: false,
   },
   {
-    id: 11,
     title: "Smart Alarm Clock",
     company: "Personal Project",
     description:
@@ -215,7 +226,6 @@ export const projects = [
     priority: false,
   },
   {
-    id: 12,
     title: "Mask Detection Robot",
     company: "Misty Robotics",
     description:
@@ -229,10 +239,10 @@ export const projects = [
     priority: false,
   },
   {
-    id: 13,
     title: "Drawing Robot",
     company: "Personal Project",
-    description: "Developed a robot and web application to draw images on the sidewalk using water",
+    description:
+      "Developed a robot and web application to draw images on the sidewalk using water",
     skills: ["C++", "Node.js", "Express.js"],
     video: "/videos/drawingrobot/1.mp4",
     alts: [
@@ -243,27 +253,14 @@ export const projects = [
     priority: false,
   },
   {
-    id: 14,
     title: "Soft Robotics Research",
     company: "University of Colorado, Boulder",
-    description: "Created an algorithm to generate interlocking “finger joints” in dual-material 3D printed soft actuators.",
+    description:
+      "Created an algorithm to generate interlocking “finger joints” in dual-material 3D printed soft actuators.",
     skills: ["Python", "3D Printing", "Solidworks"],
     video: "/videos/softrobot/1.mp4",
     alts: [
       "A design for a 3D printed soft actuator with interlocking finger joints",
-    ],
-    priority: false,
-  },
-  {
-    id: 15,
-    title: "Teleoperation Application",
-    company: "Misty Robotics",
-    description:
-      "Developed an application to allow users to control a Misty II Robot remotely.",
-    skills: ["Python", "Java", "Node.js"],
-    images: ["/images/teleoperation/1.gif"],
-    alts: [
-      "Users can control a Misty II robot remotely using a web application",
     ],
     priority: false,
   },

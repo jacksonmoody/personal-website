@@ -16,8 +16,8 @@ export default function Experience() {
         </div>
       </FadeInSection>
       <div className="my-5">
-        {experience.map((job) => (
-          <FadeInSection id={job.id} key={job.id} tabIndex={0}>
+        {experience.map((job, i) => (
+          <FadeInSection id={i} key={i} tabIndex={0}>
             <a
               href={job.link}
               target="_blank"
