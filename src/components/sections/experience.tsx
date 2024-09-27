@@ -61,7 +61,7 @@ export default function Experience() {
           </FadeInSection>
         ))}
       </div>
-      <a className="button my-10" href="/Resume.pdf" target="_blank">
+      <a className="button my-10" href="/resume.pdf" target="_blank">
         View Full Resume
         <svg
           xmlns="http://www.w3.org/2000/svg"
