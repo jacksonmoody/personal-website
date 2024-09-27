@@ -3,9 +3,10 @@ export const experience = [
     title: "Software Engineering Intern",
     company: "WHOOP",
     description: [
-      "Launched 4 new frontend experiments on join.whoop.com leading to a net 14% increase in conversion rate.",
-      "Developed A/B testing dashboard saving an estimated 500 developer hours annually.",
-      "Updated backend of Order Service API to support free shipping and paying with a pre-saved credit card.",
+      "Developed the highest ROI feature on join.whoop.com in the past year, resulting in 20,000+ additional sales.",
+      "Shipped 7 user experience improvements in React, boosting the Whoop.com conversion rate by 14% in 3 months.",
+      "Updated Java backend to support free shipping and paying with a pre-saved credit card, reducing average checkout time by 5-6 minutes per customer.",
+      "Engineered dashboard in Next.js to manage A/B testing, saving an estimated 500+ developer hours annually.",
     ],
     skills: ["Java", "PostgreSQL", "Next.js", "Typescript", "Amazon AWS"],
     link: "https://whoop.jacksonmoody.com",
@@ -14,8 +15,8 @@ export const experience = [
     title: "Software Engineering Intern",
     company: "U.S. Federal Government, General Services Administration",
     description: [
-      "Created new template for long-form government web content—publishing 300+ pages of new material with vastly improved performance and accessibility.",
-      "Led automation of data reconciliation project saving an estimated 350+ hours annually.",
+      "Created an HTML/CSS template for displaying long-form content on digital.gov, enabling the publication of 300+ pages of new material adhering to WCAG accessibility standards.",
+      "Developed a novel approach to automating HR data reconciliation in Python, saving over 350 hours annually.",
       "Selected for Coding It Forward Civic Digital Fellowship (4% acceptance rate).",
     ],
     skills: ["Python", "HTML", "CSS", "Javascript", "Hugo"],
@@ -25,8 +26,9 @@ export const experience = [
     title: "Product Intern",
     company: "Formlabs",
     description: [
-      "Led growth of the Formlabs Access Initiative for underserved students, now implemented successfully nationwide.",
-      "Developed program to resolve 100+ support tickets involving complex issues in SLA 3D printing technology.",
+      "Pioneered growth of the Formlabs Access Initiative, allowing underserved students at 20+ institutions nationwide to access advanced 3D printing technology.",
+      "Collaborated with a cross-functional team of engineers, designers, and external partners to develop a new curriculum for teaching rapid prototyping techniques.",
+      "Forged relationships with 50+ influencers across YouTube, TikTok, and Instagram—boosting site traffic by 15%.",
     ],
     skills: ["Leadership", "Communication", "Teamwork"],
     link: "https://formlabs.com",
@@ -35,10 +37,10 @@ export const experience = [
     title: "Machine Learning Research Intern",
     company: "Intelligent Robotics Laboratory, University of Colorado",
     description: [
-      "Trained lightweight neural networks to be used in prosthetic hand research across the University.",
-      "Designed an algorithm to generate interlocking “finger joints” in dual-material soft actuators, greatly increasing the adhesion between rigid and flexible material types.",
+      "Trained lightweight neural networks in PyTorch and TensorFlow to classify the location and magnitude of force on prosthetic hands with greater than 85% accuracy.",
+      "Designed an algorithm to interweave rigid and soft filaments in 3D printed actuators, increasing adhesion by 10%.",
     ],
-    skills: ["Tensorflow", "Python"],
+    skills: ["PyTorch", "TensorFlow", "Python"],
     link: "https://www.colorado.edu/lab/correll/",
   },
   {
@@ -47,7 +49,7 @@ export const experience = [
     description: [
       "Aided in development of COVID-19 screening application shipped to dozens of healthcare centers.",
       "Prototyped computer vision demonstration leading to substantial joint venture deal.",
-      "Developed chat application using Google Dialogflow which formed the basis of 50+ customer applications."
+      "Developed sales application using GPT-3 forming the basis of 50+ customer applications.",
     ],
     skills: ["C++", "Tensorflow", "Python", "Javascript"],
     link: "https://www.mistyrobotics.com/",
