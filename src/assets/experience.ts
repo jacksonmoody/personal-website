@@ -1,11 +1,11 @@
 export const experience = [
   {
     title: "Software Engineering Intern",
-    company: "WHOOP",
+    company: "WHOOP - Growth Team",
     description: [
-      "Developed the highest ROI feature on join.whoop.com in the past year, resulting in 20,000+ additional sales.",
-      "Shipped 7 user experience improvements in React, boosting the Whoop.com conversion rate by 14% in 3 months.",
-      "Updated Java backend to support free shipping and paying with a pre-saved credit card, reducing average checkout time by 5-6 minutes per customer.",
+      "Developed the highest ROI feature on join.whoop.com in 2024, resulting in 20,000+ new customers.",
+      "Shipped 7 user experience improvements in React, boosting the sales conversion rate by 14% in 3 months.",
+      "Updated Java backend to support free shipping and payment with a pre-saved credit card, reducing average checkout time by 5.5 minutes per customer.",
       "Engineered dashboard in Next.js to manage A/B testing, saving an estimated 500+ developer hours annually.",
     ],
     skills: ["Java", "PostgreSQL", "Next.js", "Typescript", "Amazon AWS"],
@@ -13,7 +13,8 @@ export const experience = [
   },
   {
     title: "Software Engineering Intern",
-    company: "U.S. Federal Government, General Services Administration",
+    company:
+      "U.S. General Services Administration - Technology Transformation Services",
     description: [
       "Created an HTML/CSS template for displaying long-form content on digital.gov, enabling the publication of 300+ pages of new material adhering to WCAG accessibility standards.",
       "Developed a novel approach to automating HR data reconciliation in Python, saving over 350 hours annually.",
@@ -24,9 +25,9 @@ export const experience = [
   },
   {
     title: "Product Intern",
-    company: "Formlabs",
+    company: "Formlabs - Partnerships and Community Team",
     description: [
-      "Pioneered growth of the Formlabs Access Initiative, allowing underserved students at 20+ institutions nationwide to access advanced 3D printing technology.",
+      "Accelerated growth of the Formlabs Access Initiative, providing access to advanced 3D printing technology for underserved students at 20+ institutions nationwide.",
       "Collaborated with a cross-functional team of engineers, designers, and external partners to develop a new curriculum for teaching rapid prototyping techniques.",
       "Forged relationships with 50+ influencers across YouTube, TikTok, and Instagram—boosting site traffic by 15%.",
     ],
@@ -45,7 +46,7 @@ export const experience = [
   },
   {
     title: "Software Engineering Intern",
-    company: "Misty Robotics",
+    company: "Misty Robotics - Platform Team",
     description: [
       "Aided in development of COVID-19 screening application shipped to dozens of healthcare centers.",
       "Prototyped computer vision demonstration leading to substantial joint venture deal.",
