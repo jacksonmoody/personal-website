@@ -40,8 +40,7 @@ export default function Welcome() {
             </a>
             <p className="inline">
               {" "}
-              I am actively looking for Summer 2025 internship positions, so
-              please feel free to reach out!
+              Would love to connect!
             </p>
           </div>
           <div className="flex w-full justify-center lg:justify-normal">
