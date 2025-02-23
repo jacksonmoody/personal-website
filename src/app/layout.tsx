@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
- 
+
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
   : "http://localhost:3000";
@@ -10,10 +10,12 @@ const defaultUrl = process.env.VERCEL_URL
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Jackson Moody",
-  description: "Hi! I am a sophomore at Harvard College studying computer science on the Mind, Brain, and Behavior track. I am currently looking for new internship opportunities, so please feel free to reach out!",
+  description:
+    "Hi! I am a student at Harvard College studying computer science on the Mind, Brain, and Behavior track. Would love to connect!",
   openGraph: {
     title: "Jackson Moody",
-    description: "Jackson Moody is a student at Harvard College studying Computer Science on the Mind, Brain, Behavior track.",
+    description:
+      "Jackson Moody is a student at Harvard College studying Computer Science on the Mind, Brain, Behavior track.",
     url: "https://www.jacksonmoody.com",
     siteName: "Jackson Moody",
     images: [
@@ -29,8 +31,8 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  viewportFit: 'cover',
-}
+  viewportFit: "cover",
+};
 
 export default function RootLayout({
   children,
