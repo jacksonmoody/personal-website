@@ -40,7 +40,19 @@ export default function Welcome() {
             </a>
             <p className="inline">
               {" "}
-              Would love to connect!
+              I currently serve as the Executive Director of{" "}
+              <a
+                href="https://socialgood.hcs.harvard.edu/"
+                target="_blank"
+                className="link"
+              >
+                Harvard Tech for Social Good
+              </a>
+              , and I will be working as a{" "}
+              <span className="font-bold">
+                Software Engineering Intern @ Apple{" "}
+              </span>
+              this summer. Would love to connect!
             </p>
           </div>
           <div className="flex w-full justify-center lg:justify-normal">
