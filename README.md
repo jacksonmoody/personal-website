@@ -4,7 +4,7 @@ Welcome! This is a website to introduce myself and showcase some of my projects.
 
 ## Deployment
 
-To build this site locally, clone this repository and then run the following commands:
+To build this site locally, clone this repository and run the following commands:
 
 ```bash
 npm install
