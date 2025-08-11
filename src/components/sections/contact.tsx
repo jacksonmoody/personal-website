@@ -11,8 +11,9 @@ export default function Contact() {
             </h2>
             <p className="max-w-2xl mx-auto mb-8 text-tertiary">
               Thank you for visiting! If you have any questions, comments, or
-              just want to say hello, feel free to reach out. I am always happy to
-              connect with new people!
+              just want to say hello, please feel free to reach out. I am
+              actively looking for new full-time opportunities, and am always
+              happy to connect with new people!
             </p>
             <a
               className="button"

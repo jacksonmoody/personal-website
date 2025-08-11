@@ -40,19 +40,12 @@ export default function Welcome() {
             </a>
             <p className="inline">
               {" "}
-              I currently serve as the Executive Director of{" "}
-              <a
-                href="https://socialgood.hcs.harvard.edu/"
-                target="_blank"
-                className="link"
-              >
-                Harvard Tech for Social Good
-              </a>
-              , and I most recently worked as a{" "}
+              I most recently worked as a{" "}
               <span className="font-bold">
                 Software Engineering Intern @ Apple
               </span>
-              . Would love to connect!
+              , and I am actively looking for new full-time opportunities. Would
+              love to connect!
             </p>
           </div>
           <div className="flex w-full justify-center lg:justify-normal">
