@@ -1,6 +1,18 @@
 export const experience = [
   {
     title: "Software Engineering Intern",
+    company: "Apple - Watch Workout Team",
+    description: [
+      "Designed and built a highly requested feature to enhance both the iOS and watchOS workout experiences.",
+      "Implemented a full-stack solution leveraging SwiftUI, MVVM architecture, and multithreading, while integrating legacy Objective-C code and bridging functionality across 6 different repositories.",
+      "Leveraged Apple developer tooling to efficiently develop and debug; wrote comprehensive unit tests to enhance code reliability.",
+      "Collaborated cross-functionally across the Workout, Activity, HealthKit, and Human Interface teams.",
+    ],
+    skills: ["Swift", "Objective-C", "Xcode", "XCTest", "SwiftUI", "UIKit"],
+    link: "https://www.apple.com/os/watchos/",
+  },
+  {
+    title: "Software Engineering Intern",
     company: "WHOOP - Growth Team",
     description: [
       "Developed the highest ROI feature on join.whoop.com in 2024, resulting in 20,000+ new customers.",

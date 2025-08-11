@@ -26,7 +26,7 @@ export default function Welcome() {
             Software Engineer @ Harvard
           </h2>
           <div className="text-tertiary text-center lg:text-left mt-5 mb-10 max-w-xl">
-            <p className="inline">Hi! I am a junior at </p>
+            <p className="inline">Hi! I am a senior at </p>
             <a
               href="https://www.college.harvard.edu/"
               target="_blank"
@@ -48,11 +48,11 @@ export default function Welcome() {
               >
                 Harvard Tech for Social Good
               </a>
-              , and I will be working as a{" "}
+              , and I most recently worked as a{" "}
               <span className="font-bold">
-                Software Engineering Intern @ Apple{" "}
+                Software Engineering Intern @ Apple
               </span>
-              this summer. Would love to connect!
+              . Would love to connect!
             </p>
           </div>
           <div className="flex w-full justify-center lg:justify-normal">

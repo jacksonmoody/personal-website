@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Jackson Moody",
   description:
-    "Hi! I am a student at Harvard College studying computer science on the Mind, Brain, and Behavior track. Would love to connect!",
+    "I am a student at Harvard College studying computer science on the Mind, Brain, and Behavior track. Would love to connect!",
   openGraph: {
     title: "Jackson Moody",
     description:
