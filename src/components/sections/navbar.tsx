@@ -53,7 +53,7 @@ export default function Navbar() {
           <IconInstagram />
         </a>
         <a
-          href="mailto:jacksonmoody@college.harvard.edu"
+          href="mailto:jackson@jacksonmoody.com"
           className="hocus:-translate-y-[2px] transition hocus:text-primary focus-visible:outline-none"
         >
           <IconEmail />

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jackson Moody",
     description:
-      "Jackson Moody is a student at Harvard College studying Computer Science on the Mind, Brain, Behavior track.",
+      "Jackson Moody is a student at Harvard College studying computer science on the Mind, Brain, Behavior track.",
     url: "https://www.jacksonmoody.com",
     siteName: "Jackson Moody",
     images: [

@@ -51,7 +51,7 @@ export default function Welcome() {
           <div className="flex w-full justify-center lg:justify-normal">
             <a
               className="button"
-              href="mailto:jacksonmoody@college.harvard.edu"
+              href="mailto:jackson@jacksonmoody.com"
             >
               Contact Me
               <svg

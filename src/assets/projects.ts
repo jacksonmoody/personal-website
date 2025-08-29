@@ -3,7 +3,7 @@ export const projects = [
     title: "Datamatch",
     company: "Harvard Computer Society",
     description:
-      "Led a team in developing functionality for a survey-based matchmaking platform with 50k+ users and 235k+ matches.",
+      "Led a team in developing functionality for an algorithmic matchmaking platform with 16k+ users and 70k+ matches annually.",
     skills: ["React", "Firebase", "Cloud Functions"],
     images: [
       "/images/datamatch/1.jpg",

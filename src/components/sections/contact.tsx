@@ -17,7 +17,7 @@ export default function Contact() {
             </p>
             <a
               className="button"
-              href="mailto:jacksonmoody@college.harvard.edu"
+              href="mailto:jackson@jacksonmoody.com"
             >
               Contact Me
               <svg
