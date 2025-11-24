@@ -40,19 +40,14 @@ export default function Welcome() {
             </a>
             <p className="inline">
               {" "}
-              I most recently worked as a{" "}
-              <span className="font-bold">
-                Software Engineering Intern @ Apple
-              </span>
-              , and I am actively looking for new full-time opportunities. Would
-              love to connect!
+              After graduating, I will be joining{" "}
+              <span className="font-bold">OpenAI</span> as a{" "}
+              <span className="font-bold">Member of Technical Staff</span>.
+              Would love to connect!
             </p>
           </div>
           <div className="flex w-full justify-center lg:justify-normal">
-            <a
-              className="button"
-              href="mailto:jackson@jacksonmoody.com"
-            >
+            <a className="button" href="mailto:jackson@jacksonmoody.com">
               Contact Me
               <svg
                 xmlns="http://www.w3.org/2000/svg"
