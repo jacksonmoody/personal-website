@@ -6,6 +6,7 @@ export const projects = [
       "Developed a novel system for detecting and mitigating in-the-moment stressors on an Apple Watch.",
     skills: ["Swift", "SwiftUI", "Xcode", "HealthKit", "WatchOS"],
     pdf: "/thesis.pdf",
+    alts: [],
     link: "https://www.cue-experiment.me/",
     github: "https://github.com/jacksonmoody/Cue",
     priority: true,
