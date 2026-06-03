@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Headshot from "@/assets/headshot.jpeg";
+import Headshot from "@/assets/headshot.jpg";
 import Scroll from "@/assets/scroll.gif";
 import { scrollTo } from "@/utils/helpers";
 
@@ -7,7 +7,7 @@ export default function Welcome() {
   return (
     <div className="animate-in" style={{ minHeight: "calc(100vh - 180px)" }}>
       <div className="flex flex-col items-center lg:flex-row-reverse gap-5 justify-evenly">
-        <div className="inline-block relative before:hidden lg:before:inline-block before:absolute before:h-full before:w-full before:top-[5%] before:left-[5%] before:border-4 before:border-primary before:content-[''] before:rounded-full hero-image-container">
+        <div className="inline-block relative before:hidden lg:before:inline-block before:absolute before:h-full before:w-full before:top-[4%] before:left-[4%] before:border-4 before:border-primary before:content-[''] before:rounded-full hero-image-container">
           <div className="lg:mx-auto mb-10 lg:mb-0 shrink-0 relative object-cover size-60 lg:size-96">
             <Image
               src={Headshot}
@@ -22,11 +22,11 @@ export default function Welcome() {
           <h1 className="text-3xl sm:text-7xl text-center lg:text-left font-bold text-[#dee4f8] mt-2">
             Jackson Moody
           </h1>
-          <h2 className="text-2xl sm:text-5xl text-center lg:text-left font-bold text-tertiary my-4">
-            Software Engineer @ Harvard
+          <h2 className="text-xl sm:text-3xl text-center lg:text-left font-bold text-tertiary my-4">
+            Member of Technical Staff @ OpenAI
           </h2>
           <div className="text-tertiary text-center lg:text-left mt-5 mb-10 max-w-xl">
-            <p className="inline">Hi! I am a senior at </p>
+            <p className="inline">I recently graduated from </p>
             <a
               href="https://www.college.harvard.edu/"
               target="_blank"
@@ -34,13 +34,13 @@ export default function Welcome() {
             >
               Harvard College
             </a>
-            <p className="inline"> studying computer science on the </p>
+            <p className="inline">, where I studied computer science on the </p>
             <a href="https://mbb.harvard.edu/" target="_blank" className="link">
               Mind, Brain, and Behavior track.
             </a>
             <p className="inline">
               {" "}
-              After graduating, I will be joining{" "}
+              Next August, I will be joining{" "}
               <span className="font-bold">OpenAI</span> as a{" "}
               <span className="font-bold">Member of Technical Staff</span>.
               Would love to connect!

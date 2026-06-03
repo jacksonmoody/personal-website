@@ -11,11 +11,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Jackson Moody",
   description:
-    "I am a student at Harvard College studying computer science on the Mind, Brain, and Behavior track. Would love to connect!",
+    "I recently graduated from Harvard College, and am currently a member of technical staff at OpenAI. Would love to connect!",
   openGraph: {
     title: "Jackson Moody",
     description:
-      "Jackson Moody is a student at Harvard College studying computer science on the Mind, Brain, Behavior track.",
+      "Jackson Moody is a recent graduate of Harvard College and a member of technical staff at OpenAI.",
     url: "https://www.jacksonmoody.com",
     siteName: "Jackson Moody",
     images: [

@@ -23,6 +23,7 @@ type ProjectProps = {
     skills: Array<string>;
     images?: Array<string>;
     video?: string;
+    pdf?: string;
     sound?: boolean;
     alts: Array<string>;
     link?: string;
@@ -39,7 +40,14 @@ export default function Project({ project, id }: ProjectProps) {
       <div
         tabIndex={0}
         className="group rounded-md transition -inset-x-6 block hocus:bg-slate-800/50 hocus:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg p-5 md:max-w-xs border-slate-800/50 border-2 h-full cursor-pointer"
-        onClick={() => setOpen(true)}
+        onClick={(e) => {
+          if (project.pdf) {
+            window.open(project.pdf, "_blank");
+            e.currentTarget.blur();
+          } else {
+            setOpen(true);
+          }
+        }}
       >
         <div className="flex justify-between">
           <h3 className="text-secondary group-hover:text-primary transition text-lg font-bold">
@@ -106,12 +114,13 @@ export default function Project({ project, id }: ProjectProps) {
               <CarouselContent>
                 {project.images.map((image, i) => (
                   <CarouselItem key={i}>
-                    <div className="relative max-w-[100%] h-[250px] sm:h-[500px] mt-5">
+                    <div className="flex items-center justify-center max-w-[100%] h-[250px] sm:h-[500px] mt-5">
                       <Image
                         src={image}
                         alt={project.alts[i]}
-                        fill
-                        style={{ objectFit: "cover", borderRadius: "0.5rem" }}
+                        width={1600}
+                        height={900}
+                        className="max-h-full max-w-full w-auto h-auto object-contain rounded-lg"
                       />
                     </div>
                     <p className="text-tertiary text-sm text-center mt-10">
@@ -126,12 +135,13 @@ export default function Project({ project, id }: ProjectProps) {
           )}
           {project.images && project.images.length === 1 && (
             <>
-              <div className="relative max-w-[100%] h-[250px] sm:h-[500px] mt-5">
+              <div className="flex items-center justify-center max-w-[100%] h-[250px] sm:h-[500px] mt-5">
                 <Image
                   src={project.images[0]}
                   alt={project.alts[0]}
-                  fill
-                  style={{ objectFit: "cover", borderRadius: "0.5rem" }}
+                  width={1600}
+                  height={900}
+                  className="max-h-full max-w-full w-auto h-auto object-contain rounded-lg"
                 />
               </div>
               <p className="text-tertiary text-sm text-center mt-10">

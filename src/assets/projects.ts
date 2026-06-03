@@ -1,5 +1,16 @@
 export const projects = [
   {
+    title: "Cue",
+    company: "Undergraduate Thesis",
+    description:
+      "Developed a novel system for detecting and mitigating in-the-moment stressors on an Apple Watch.",
+    skills: ["Swift", "SwiftUI", "Xcode", "HealthKit", "WatchOS"],
+    pdf: "/thesis.pdf",
+    link: "https://www.cue-experiment.me/",
+    github: "https://github.com/jacksonmoody/Cue",
+    priority: true,
+  },
+  {
     title: "Datamatch",
     company: "Harvard Computer Society",
     description:
@@ -12,10 +23,10 @@ export const projects = [
       "/images/datamatch/4.jpg",
     ],
     alts: [
-      "Updated landing page to include user count and testimonials",
-      "Updated home page with new design and statistics",
-      "Updated profile page to include deal breakers",
-      "Crush roulette feature to allow users to influence the algorithm",
+      "Updated landing page to include user count and testimonials.",
+      "Updated home page with new design and statistics.",
+      "Updated profile page to include deal breakers.",
+      "Crush roulette feature to allow users to influence the algorithm.",
     ],
     link: "https://datamatch.me",
     priority: true,
@@ -39,13 +50,53 @@ export const projects = [
       "/images/coveducation/4.jpg",
     ],
     alts: [
-      "Students and mentors can view and manage their matches",
-      "Students and mentors can create profiles to be matched with",
-      "Students can log and approve volunteering hours",
-      "Administrators can manage mentors and mentees",
+      "Students and mentors can view and manage their matches.",
+      "Students and mentors can create profiles to be matched with.",
+      "Students can log and approve volunteering hours.",
+      "Administrators can manage mentors and mentees.",
     ],
     link: "https://dashboard.coved.org",
     github: "https://github.com/jacksonmoody/CovEd",
+    priority: true,
+  },
+  {
+    title: "Autograder",
+    company: "Personal Project",
+    description:
+      "Developed an assignment submission platform to accelerate grading with AI-assistance.",
+    skills: ["React", "Next.js", "Supabase", "Typescript", "Tailwind CSS"],
+    images: [
+      "/images/grader/1.png",
+      "/images/grader/2.png",
+      "/images/grader/3.png",
+      "/images/grader/4.png",
+    ],
+    alts: [
+      "One unified platform for students, instructors, and teaching assistants to manage assignments and their grades.",
+      "Students can view their own assignments, create new submissions, and view their grades.",
+      "Teaching assistants and instructors can view and grade assignments with AI-assistance.",
+      "Students can submit regrade requests for review if they believe the AI-grading is unfair.",
+    ],
+    link: "https://autograder-project.vercel.app/",
+    github: "https://github.com/cs1060f25/autograder-project",
+    priority: true,
+  },
+  {
+    title: "Match 26",
+    company: "Harvard Class Committee",
+    description:
+      "Created a platform to help students find mutual matches within their graduating class.",
+    skills: ["React", "Next.js", "Firebase", "Javascript", "Tailwind CSS"],
+    images: [
+      "/images/match/1.png",
+      "/images/match/2.png",
+      "/images/match/3.png",
+    ],
+    alts: [
+      "Students can search the graduating class for crushes or people they would like to ship together.",
+      "Students can create custom profiles with their personal information and preferences.",
+      "Students can view the results of the matching algorithm and the custom matches they have been assigned.",
+    ],
     priority: true,
   },
   {
@@ -61,13 +112,35 @@ export const projects = [
       "/images/crimsoncarshare/4.jpg",
     ],
     alts: [
-      "Users create a profile when onboarded onto the application",
+      "Users create a profile when onboarded onto the application.",
       "Users can create rides to share with each other.",
-      "Users can view and join available rides",
+      "Users can view and join available rides.",
       "Users can manage rides that they have already created.",
     ],
-    link: "https://crimson-carshare.live",
     github: "https://github.com/jacksonmoody/crimson-carshare",
+    priority: true,
+  },
+  {
+    title: "Ripple",
+    company: "Personal Project",
+    description:
+      "Created a get out the vote platform to encourage participation in local elections via personalized messaging.",
+    skills: ["Swift", "SwiftUI", "Xcode", "Node.js", "Express.js", "MongoDB"],
+    images: [
+      "/images/ripple/1.png",
+      "/images/ripple/2.png",
+      "/images/ripple/3.png",
+      "/images/ripple/4.png",
+      "/images/ripple/5.png",
+    ],
+    alts: [
+      "Users need to rally their friends to vote in order to unlock the app's features.",
+      "Users send personalized messages to their friends to encourage them to vote.",
+      "Users can see a graph of their network and their cumulative impact.",
+      "Users can see their impact on the election and their friends' activity.",
+      "Users can compete within their local network to see who can get the most people to vote.",
+    ],
+    github: "https://github.com/jacksonmoody/Ripple",
     priority: true,
   },
   {
@@ -82,11 +155,24 @@ export const projects = [
       "/images/matanataki/3.jpg",
     ],
     alts: [
-      "Options for picking up and dropping off waste across Fiji",
-      "Company dashboard to manage scheduled pickups and drop-offs",
-      "Users specify details about their waste before scheduling a pickup/dropoff",
+      "Options for picking up and dropping off waste across Fiji.",
+      "Company dashboard to manage scheduled pickups and drop-offs.",
+      "Users specify details about their waste before scheduling a pickup/dropoff.",
     ],
     link: "https://matanataki.vercel.app",
+    priority: true,
+  },
+  {
+    title: "Chrome Dino Game AI",
+    company: "Personal Project",
+    description:
+      "Using the NEAT algorithm to evolve a neural network capable of beating the Chrome Dino game.",
+    skills: ["Python", "Reinforcement Learning"],
+    video: "/videos/dino/1.mov",
+    alts: [
+      "A neural network is evolved using the NEAT algorithm to play the Chrome Dino game.",
+    ],
+    github: "https://github.com/jacksonmoody/Chrome-Dino-Game-AI",
     priority: true,
   },
   {
@@ -102,13 +188,13 @@ export const projects = [
       "/images/whoop/4.webp",
     ],
     alts: [
-      "Redesigned join flow with new color scheme and more modern look",
-      "Added ability to pay with a pre-saved credit card",
-      "Updated password reset experience",
-      "Updated country/region and language selection",
+      "Redesigned join flow with new color scheme and more modern look.",
+      "Added ability to pay with a pre-saved credit card.",
+      "Updated password reset experience.",
+      "Updated country/region and language selection.",
     ],
     link: "https://whoop.jacksonmoody.com",
-    priority: true,
+    priority: false,
   },
   {
     title: "Digital.gov Guides",
@@ -122,13 +208,13 @@ export const projects = [
       "/images/digitalgov/3.jpg",
     ],
     alts: [
-      "Users can view a summary of the guide contents",
-      "Users can navigate the guides using various levels of navigation",
-      "Guides include rich visuals and interactive elements",
+      "Users can view a summary of the guide contents.",
+      "Users can navigate the guides using various levels of navigation.",
+      "Guides include rich visuals and interactive elements.",
     ],
     link: "https://digital.gov/guides/hcd/",
     github: "https://github.com/GSA/digitalgov.gov",
-    priority: true,
+    priority: false,
   },
   {
     title: "Data Analytics Dashboard",
@@ -142,10 +228,52 @@ export const projects = [
       "/images/visualanalytics/3.jpg",
     ],
     alts: [
-      "Users can see an overview of spending data",
-      "Users can view and filter detailed information about total spending",
-      "Users can see detailed information about particular spenders and transactions",
+      "Users can see an overview of spending data.",
+      "Users can view and filter detailed information about total spending.",
+      "Users can see detailed information about particular spenders and transactions.",
     ],
+    priority: false,
+  },
+  {
+    title: "Smart Alarm Clock",
+    company: "Personal Project",
+    description:
+      "Built and programmed a smart alarm clock that sprays water and opens the blinds to wake the user up.",
+    skills: ["Arduino", "C++", "Node.js", "Express.js"],
+    video: "/videos/smartalarm/1.mp4",
+    sound: true,
+    alts: [
+      "Users can set the time for the alarm clock to go off, and the alarm clock will spray water and open the blinds to wake the user up.",
+    ],
+    github: "https://github.com/jacksonmoody/PS70-Clock",
+    link: "https://ps-70-clock.vercel.app/",
+    priority: false,
+  },
+  {
+    title: "Mask Detection Robot",
+    company: "Misty Robotics",
+    description:
+      "Developed and deployed a neural network to detect whether people are wearing masks.",
+    skills: ["Python", "Tensorflow", "C++"],
+    video: "/videos/maskdetection/1.mp4",
+    sound: true,
+    alts: [
+      "The Misty Robot can detect whether people are wearing masks and respond accordingly.",
+    ],
+    priority: false,
+  },
+  {
+    title: "Drawing Robot",
+    company: "Personal Project",
+    description:
+      "Developed a robot and web application to draw images on the sidewalk using water",
+    skills: ["C++", "Node.js", "Express.js"],
+    video: "/videos/drawingrobot/1.mp4",
+    alts: [
+      "Users can upload images to a web application, and the robot will draw the image on the sidewalk using water.",
+    ],
+    github: "https://github.com/jacksonmoody/ps70-machine",
+    link: "https://ps70-machine.vercel.app/",
     priority: false,
   },
   {
@@ -161,25 +289,11 @@ export const projects = [
       "/images/clubreview/4.jpg",
     ],
     alts: [
-      "Students can login with their Harvard credentials",
-      "Students can view detailed information about different organizations",
-      "Students can manage organizations which they have joined",
-      "Students can view feedback from other students about different organizations",
+      "Students can login with their Harvard credentials.",
+      "Students can view detailed information about different organizations.",
+      "Students can manage organizations which they have joined.",
+      "Students can view feedback from other students about different organizations.",
     ],
-    priority: false,
-  },
-  {
-    title: "Random Interesting Thing Generator",
-    company: "Personal Project",
-    description:
-      "Developed a website to scrape the internet for interesting content across a variety of categories and present them to the user.",
-    skills: ["Python", "Flask", "Amazon AWS"],
-    images: ["/images/randomthing/1.jpg", "/images/randomthing/2.jpg"],
-    alts: [
-      "Users can search the internet for interesting things",
-      "Users can view interesting content from YouTube, the New York Times, and Wikipedia on a particular topic",
-    ],
-    github: "https://github.com/jacksonmoody/cs50-project",
     priority: false,
   },
   {
@@ -190,11 +304,25 @@ export const projects = [
     skills: ["React", "Material UI", "Firebase"],
     images: ["/images/blocking/1.jpg", "/images/blocking/2.jpg"],
     alts: [
-      "Students can create custom profiles with their rooming preferences",
-      "Students can view and manage their blocking groups",
+      "Students can create custom profiles with their rooming preferences.",
+      "Students can view and manage their blocking groups.",
     ],
     link: "https://t4sg-wintersession.vercel.app/login",
     github: "https://github.com/jacksonmoody/T4SG-Wintersession",
+    priority: false,
+  },
+  {
+    title: "Random Interesting Thing Generator",
+    company: "Personal Project",
+    description:
+      "Developed a website to scrape the internet for interesting content across a variety of categories and present them to the user.",
+    skills: ["Python", "Flask", "Amazon AWS"],
+    images: ["/images/randomthing/1.jpg", "/images/randomthing/2.jpg"],
+    alts: [
+      "Users can search the internet for interesting things.",
+      "Users can view interesting content from YouTube, the New York Times, and Wikipedia on a particular topic.",
+    ],
+    github: "https://github.com/jacksonmoody/cs50-project",
     priority: false,
   },
   {
@@ -205,51 +333,9 @@ export const projects = [
     skills: ["Java", "SQL", "JavaFX"],
     video: "/videos/timemanagement/1.mp4",
     alts: [
-      "Users can create and manage tasks, then view a recommended schedule for managing their time",
+      "Users can create and manage tasks, then view a recommended schedule for managing their time. ",
     ],
     github: "https://github.com/jacksonmoody/time-management-app",
-    priority: false,
-  },
-  {
-    title: "Smart Alarm Clock",
-    company: "Personal Project",
-    description:
-      "Built and programmed a smart alarm clock that sprays water and opens the blinds to wake the user up.",
-    skills: ["Arduino", "C++", "Node.js", "Express.js"],
-    video: "/videos/smartalarm/1.mp4",
-    sound: true,
-    alts: [
-      "Users can set the time for the alarm clock to go off, and the alarm clock will spray water and open the blinds to wake the user up",
-    ],
-    github: "https://github.com/jacksonmoody/PS70-Clock",
-    link: "https://ps-70-clock.vercel.app/",
-    priority: false,
-  },
-  {
-    title: "Mask Detection Robot",
-    company: "Misty Robotics",
-    description:
-      "Developed and deployed a neural network to detect whether people are wearing masks.",
-    skills: ["Python", "Tensorflow", "C++"],
-    video: "/videos/maskdetection/1.mp4",
-    sound: true,
-    alts: [
-      "The Misty Robot can detect whether people are wearing masks and respond accordingly",
-    ],
-    priority: false,
-  },
-  {
-    title: "Drawing Robot",
-    company: "Personal Project",
-    description:
-      "Developed a robot and web application to draw images on the sidewalk using water",
-    skills: ["C++", "Node.js", "Express.js"],
-    video: "/videos/drawingrobot/1.mp4",
-    alts: [
-      "Users can upload images to a web application, and the robot will draw the image on the sidewalk using water",
-    ],
-    github: "https://github.com/jacksonmoody/ps70-machine",
-    link: "https://ps70-machine.vercel.app/",
     priority: false,
   },
   {
@@ -260,7 +346,7 @@ export const projects = [
     skills: ["Python", "3D Printing", "Solidworks"],
     video: "/videos/softrobot/1.mp4",
     alts: [
-      "A design for a 3D printed soft actuator with interlocking finger joints",
+      "A design for a 3D printed soft actuator with interlocking finger joints.",
     ],
     priority: false,
   },
